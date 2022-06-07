@@ -24,6 +24,7 @@ function reset(){
     }
     document.getElementById('sig').style.display = 'none';
     document.getElementById('mar').innerHTML =  ' ';
+    document.getElementById('btnall').children[0].style.display = 'flex';
 }
 function ans(){
     let elements = document.getElementsByTagName('input');
@@ -33,5 +34,5 @@ function ans(){
         elements[i].style.color = 'black';
         document.getElementById('mar').innerHTML =  ' ';
     }
-    
+    document.getElementById('btnall').children[0].style.display = 'none';
 }
