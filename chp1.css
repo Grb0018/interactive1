@@ -21,6 +21,7 @@ body{
     position: relative;
     margin: 0px 50px;}  
 #head .chpname{    background-color: #d6e6f5;
+    font-size: 38px;
     box-shadow: 1px 5px;
     padding: 20px 180px;
     border-radius: 31px;
